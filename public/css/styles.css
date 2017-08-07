@@ -20,10 +20,13 @@ nav ul {
     color: black; }
 
 #trade {
-  width: 500px;
+  width: 350px;
   height: 500px; }
 
 #summary {
+  font-size: 40px; }
+
+#about {
   font-size: 40px; }
 
 /*# sourceMappingURL=styles.css.map */
