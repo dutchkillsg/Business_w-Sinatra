@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buy and Sell Organs here!</title>
+<link href="https://fonts.googleapis.com/css?family=Work+Sans|Yanone+Kaffeesatz" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="<%= url("css/normalize.css")%>">
+<link rel="stylesheet" type="text/css" href="<%= url("css/skeleton.css")%>">
+<link rel="stylesheet" type="text/css" href="<%= url("css/styles.css")%>">
+</head>
+<body>
+<div id = "bar">
+	<h1 id = title><%= @title %></h1>
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>About Us</li>
+			<li>Gallary</li>
+			<li>Contact Us</li>
+		</ul>
+	</nav>
+</div>
+    <%= yield %>
+</body>
+</html>
