@@ -6,7 +6,7 @@ body {
 
 #title {
   text-align: center;
-  padding-right: 10px; }
+  padding: 10px; }
 
 nav ul {
   text-align: center;
@@ -15,8 +15,15 @@ nav ul {
     display: inline-block;
     font-size: 16pt;
     padding: 20px; }
+  nav ul a {
+    text-decoration: none;
+    color: black; }
 
-#email {
-  color: blue; }
+#trade {
+  width: 500px;
+  height: 500px; }
+
+#summary {
+  font-size: 40px; }
 
 /*# sourceMappingURL=styles.css.map */

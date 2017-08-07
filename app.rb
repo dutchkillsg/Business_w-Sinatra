@@ -4,13 +4,18 @@ include SendGrid
 
 
 get "/home" do 
-	@title = "Home"
+	@title = "Trade-Craft"
 	erb :home 
 end
 
 get "/about_us" do
 	@title = "About us"
 	erb :about_us
+end
+
+get "/gallary" do
+	@title = "Gallary"
+	erb :gallary
 end
 
 get "/contact_us" do 
